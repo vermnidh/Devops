@@ -1,4 +1,4 @@
-trigger Accounttrigger on SOBJECT (before insert,before update) {
+trigger Accounttrigger on Account (before insert,before update) {
     if (trigger.isInsert){
 
     }
